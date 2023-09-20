@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=IBM+Plex+Mono:wght@100&family=Inter:wght@200&family=Lilita+One&family=Signika+Negative:wght@300;400&display=swap');
+* {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+body {
+    background-color: RGBA(232, 52, 78, 0.2);
+    min-height: 100vh;
+}
+
+.section {
+    padding: 1rem 1.5rem;
+    max-width: 750px;
+    margin: auto;
+}
+
+.title {
+    font-weight: 800;
+    font-size: 5rem;
+
+}
+
+.subtitle {
+    font-size: 2rem;
+}
+
+.is-sparta {
+    color: #e8344e !important;
+}
+
+.button.is-sparta {
+    background-color: #e8344e;
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.button.is-sparta.is-outlined {
+    background-color: transparent;
+    border-color: #e8344e;
+    color: #e8344e !important;
+}
+
+.help {
+    color: gray;
+}
+
+.modal-content{
+    width: 600px;
+    height: 80%;
+}
+
+input::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+.image img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.logo-text{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: larger;
+}
